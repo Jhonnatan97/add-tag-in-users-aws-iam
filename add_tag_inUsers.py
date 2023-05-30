@@ -2,7 +2,7 @@ import boto3
 
 
 def adicionar_tag_usuarios_iam():
-    boto3.setup_default_session (profile_name='sso-bpp')
+    boto3.setup_default_session (profile_name='<your-profile>')
     users = []
 
     # Crie uma instância do cliente IAM
